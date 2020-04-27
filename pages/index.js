@@ -1,10 +1,11 @@
-import { AmplifyAuthenticator } from "@aws-amplify/ui-react";
+import { Authenticator, SignIn } from "aws-amplify-react";
 
 const Home = () => (
   <div className="container">
-    <AmplifyAuthenticator>
+    <Authenticator>
       <h1>My app</h1>
-    </AmplifyAuthenticator>
+      <SignIn />
+    </Authenticator>
   </div>
 );
 
